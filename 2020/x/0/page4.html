@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Project Page4 </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="pagefourstyle.scss">
+
+    <style>
+    .container {
+      position: relative;
+      font-color: white;
+      font-weight: bold;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .centered {
+      text-align: center;
+      font-size: 50px;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 5%;
+      right: 5%;
+    }
+
+    .map-container {
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+    }
+    .map-container iframe {
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+    }
+
+      .pt-4 {
+           padding: $spacer !important;
+         }
+
+       p {
+
+         font-size: 30px;
+         font-weight: 400;
+       }
+    </style>
+  </head>
+  <body>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <div class="container">
+      <img src="molecules.jpg" class= "img-fluid" alt="chemistry" width="1500px" height="400px">
+      <div class="centered"> CHEMISTRY CLASSES </div>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <span class="navbar-brand mb-0 h1"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Awards and Achievements
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="second.html">Achievements and Awards</a>
+              <a class="dropdown-item" href="second.html">Shining Stars</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Ideas and Innovations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="Third page.html">Ideas</a>
+              <a class="dropdown-item" href="Third page.html">Innovations</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contact Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="fourth page.html">Contact Details</a>
+              <a class="dropdown-item" href="fourth page.html">Address</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+  </div>
+
+
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col pt-4"> <h2 style="font-weight: 500px"> CONTACT DETAILS </h2>
+          <p> For further information on batches and timings.</p>
+          <p> Feel free to contact us on-
+            <ul>
+              <li> Mobile No. <img src="mobile.jpeg" class="img-fluid" alt="mobile" width="50px" height="60px"> :- +91 9844xxxxxx </li>
+              <li> Landline <img src="telephone.jpeg" class="img-fluid" alt="telephone" width="50px" height="40px"> :- 04xx-24xxxxxxxx </li>
+            </ul>
+            <ol>
+              <li> Mobile Number (above) </li>
+              <li> Landline Number (above) </li>
+              <li> Google Map location (below) </li>
+            </ol>
+          </p>
+            <button class= "button-basic" type="button"><a class="btn btn-primary" href="page1.html" role="button" aria-pressed="true"> Home </a></button>
+        </div>
+
+        <div class="w-100"></div>
+
+        <div class="col pt-4"> <h2 style="font-weight: 500px"> ADDRESS </h2>
+          <p> C48, MIG Flats, </p>
+          <p> East of Loni Road, Delhi, </p>
+          <p> India </p>
+
+        <div class="w-100"></div>
+
+          <!--Google map-->
+          <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28003.498337680077!2d77.27206313634397!3d28.676562868084606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb8cc2854181%3A0x98cfacac87cc5c57!2sChemistry%20Classes!5e0!3m2!1sen!2sin!4v1588587713238!5m2!1sen!2sin" width="600" height="450" frameborder="0"
+              class="img-fluid" style="border:0" allowfullscreen></iframe>
+              <button class= "button-style" type="button"><a class="btn btn-primary" href="page1.html" role="button" aria-pressed="true"> Home </a></button>
+          </div>
+          <!--Google Maps-->
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  </body>
+</html>

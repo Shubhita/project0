@@ -1,0 +1,39 @@
+table
+{
+  color: green;
+  border: 3px solid black;
+  padding: 4px;
+  width: 70%;
+  border-collapse: collapse;
+}
+
+th, td
+{
+  border: 3px solid black;
+  padding: 20px;
+}
+th
+  {
+    background-color: yellow;
+}
+
+#navbarDropdown
+{
+  text-decoration: none;
+}
+
+.pt-4 {
+     padding: $spacer !important;
+   }
+
+p {
+     font-size: 20px;
+     font-weight: bold;
+   }
+p::after {
+  content: "\2b50";
+}
+
+* {
+     text-align: center;
+  }

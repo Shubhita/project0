@@ -1,0 +1,29 @@
+$fontweight: 200;
+div {
+
+  ul {
+    font-size: 20px;
+    font-weight: $fontweight;
+    color: red;
+}
+  li {
+     display: inline-block;
+  }
+  ol {
+    font-size: 20px;
+    font-weight: $fontweight;
+    color: red;
+}
+
+.button-basic  {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-style  {
+  @extend .button-basic;
+  background-color: grey;
+}
